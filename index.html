@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio
+    </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin:0;
+            padding:0;
+        }
+body{
+    background-color: rgb(62, 62, 211);
+    color: white;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 120px;
+    background-color: rgb(3, 3, 121);
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin:0 23px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    
+}
+nav ul li a:hover{
+    color: lavender;
+    font-size: 1.03rem;
+    
+}
+.left{
+    font-size:1.5rem;
+}
+.firstsection{
+    display:flex;
+    justify-content: space-around;
+    margin: 80px 0;
+    align-items: center;
+    margin: 140px 0;
+
+}
+.firstsection > div{
+    width:30%;
+
+}
+.leftsection{
+    font-size: 2rem;
+    margin: 70px 0;
+}
+.leftsection .btn{
+    padding: 12px;
+    background: rgb(104, 91, 104);
+    color: white;
+    border: 2px solid white;
+    border-radius: 4px;
+    font-size: 20px ;
+    cursor:pointer; 
+}
+.leftsection .buttons{
+    padding: 50px 0px;
+}
+.rightsection img{
+    width: 80%;  
+}
+.purple{
+    color:rgb(23, 4, 23);
+}
+#element{
+    color:rgb(23, 4, 23);
+
+}
+.secondsection{
+    max-width: 80vw;
+    margin:auto;
+    height: 80vh;
+}
+main hr{
+    border:0;
+    background-color: rgb(135, 21, 241) ;
+    height: 1.2px;
+    margin: 40px 84px;  
+}
+.secondsection h1{
+    font-size: 1.5rem;
+}
+.text-gray{
+    color: gray;
+}
+.secondsection .box{
+    background: white;
+    width: 80vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+}
+.secondsection .vertical{
+    height: 90px;
+    width: 1px;
+    background-color: white;
+    margin: 0 120px;
+}
+.image-top{
+    width: 23px;
+    position: relative;
+    top: -32px;
+    left: -9px;
+}
+.vertical-title{
+    position: relative;
+    top: 75px;
+    width: 150px;
+
+}
+.vertical-desc{
+    position: relative;
+    top: 87px;
+    color: rgb(8, 0, 0);
+    width: 150px;
+    font-size: 15px;
+}
+footer{
+    background-color: rgb(3, 3, 37);
+    height: 180px;
+}
+.footer{
+    display: flex;
+    padding: 23px 120px;
+    justify-content: space-evenly;
+}
+.footer>div{
+    width: 200px;
+}
+footer .footer-rights{
+    text-align: center; 
+    color: rgb(83, 82, 82);
+}
+</style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Vikas's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="http://127.0.0.1:3000/index.html">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Contacts</a></li>
+                    
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hi,My name is<span class="purple">Vikas</span> 
+                <div> and I am a frontend Web Developer.</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn">Download Resume</button>
+                    
+                </div>
+            </div>
+            <div class="rightsection">
+                <img src="a1.jpg"> 
+            </div>
+        </section>
+<hr>
+        <section class="secondsection">
+            <span class="text-gray"></span>
+            <h1>Education and Intrest
+            </h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="b1.png">
+                    <div class="vertical-title">
+                        HTML Developer
+                    </div>
+                    <div class="vertical-desc">
+                        HTML is standard markup language foe creating web
+                    </div>
+                    
+                </div>
+
+                <div class="vertical">
+                    <img class="image-top" src="b1.jpg">
+                    <div class="vertical-title">
+                        Cascading style sheets
+                    </div>
+                    <div class="vertical-desc">
+                        css describes how html element are displayed on screen,paper,or in other Media.
+                    </div>
+                    
+                </div>
+
+                <div class="vertical">
+                    <img class="image-top" src="b1.jpg">
+                    <div class="vertical-title">
+                        B-tech(8.07)[tillVthsem]
+                    </div>
+                    <div class="vertical-desc">
+                        I am currently pursuing my B-tech Degree From JSSATEN in the branch of Electronics and communication Engineering ,which will complete in year 2024.
+                    </div>
+                    
+                </div>
+
+                <div class="vertical">
+                    <img class="image-top" src="b1.jpg">
+                    <div class="vertical-title">
+                         Problem Solving
+                    </div>
+                    <div class="vertical-desc">
+                        Learning how to solve diffrent problem using different Algorithms.
+                    </div>
+                    
+                </div>
+
+                <div class="vertical">
+                    <img class="image-top" src="b1.jpg">
+                    <div class="vertical-title">
+                        Active Trading in Stock market
+                    </div>
+                    <div class="vertical-desc">
+                        Learning technical and fundamental analysis of stocks
+                        
+                    </div>
+                    
+                </div>
+</div>
+            
+            
+        </section>
+        
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">Vikas's Portfolio as a Beginner.</div>
+            <div class="footer-second">
+                <ul>Skills
+                    <li>
+                        Problem Solving.
+                    </li>
+                    <li>
+                        HTML
+                    </li>
+                    <li>
+                        CSS
+                    </li>
+                    <li>
+                        javascript
+                        
+                    </li>
+
+                    
+
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>Hobies
+                    <li>
+                        Trading
+                    </li>
+                    <li>
+                        Music.
+                    </li>
+                    <li>
+                        Travelling.
+                    </li>
+                    <li>
+                        Interacting with peolpe.
+                    </li>
+
+                    
+
+                </ul>
+            </div>
+            
+        </div>
+        <div class="footer-rights">
+            WWW.Vikas'sportfolio.com | All Rights Reserved
+        </div>
+    </footer>
+
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['a Java Script learner', 'and problem solver in C++.'],
+          typeSpeed: 50,
+        });
+      </script>
+    
+</body>
+</html>
